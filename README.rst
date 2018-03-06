@@ -1,42 +1,33 @@
-###########################
-Desafio Desenvolvedor HITSS
-###########################
+################
+Batalha Medieval
+################
 
 Projetar e implementar um serviço web REST e um cliente que possa consumir tal 
 serviço e que apresente resultados de todas as interações.
 
-Veja o código em ação: `In Action <http://www.ceffsistemas.com.br/coding/desafio-desenvolvedor-hitss/>`_
+Veja o código em ação: `In Action <http://www.ceffsistemas.com.br/coding/battle/>`_
 
 ******************
 Outras Informações
 ******************
 
-Estou iniciando o desenvolvimento da solução para este desafio com o framework 
-`CodeIgniter <https://codeigniter.com/>`_ na versão 3.1.
-
 Esta aplicação foi testada com PHP 5.6/7.0 e a extensão cURL, utilizado o banco 
 de dados MySQL versão 5.7 e o Apache Web Server 2.4 com mod_rewrite habilitado.
 
-OBS.: O mod_rewrite do Apache já vem habilitado por padrão, mas, caso queira se 
-certificar, veja no arquivo httpd.conf que fica dentro da pasta conf da 
-instalação do Apache. Procure pela seguinte linha: 
-LoadModule rewrite_module modules/mod_rewrite.so
-
-Caso esta linha esteja precedida por um # remova-o e reinicie o Apache.
-
-Também é necessário que o diretório do seu servidor (local ou remoto) permita o 
-uso de arquivos .htaccess. Para isso devemos adicionar a diretiva 
-"AllowOverride All" na configuração do diretório do servidor.
+No arquivo .htaccess da raiz do projeto definimos o parâmetros RewriteBase para 
+/coding/battle/with-framework/ evitando assim o conflito com outros arquivos .htaccess no diretório web
+de testes que eu uso. Caso vc estaja testando na raiz do seu localhost ou em algum outro path, faça os 
+ajustes necessários para o funcionamento do sistema.
 
 Outros requisitos básicos para a execução do CodeIgniter, da solução 
 apresentada e também uma visão geral sobre o framework utilizado, está 
 disponível no `Guia do Usuário CodeIgniter <https://codeigniter.com/user_guide/>`_.
 
-Durante o desenvolvimento desta solução vou incrementar este arquivo README com 
-as especificidades do projeto e os requisitos para sua execução.
+Durante o desenvolvimento desta solução vou incrementar este arquivo README com  as especificidades do 
+projeto e os requisitos para sua execução.
 
 A solução deste projeto foi pensada de forma que o usuário/gammer possa 
-cadastrar seus próprios personagens e armas que serão utilizadas por eles.
+cadastrar seus próprios personagens e armas que serão utilizadas por ele.
 Através do relacionamento personagem x arma no banco de dados, os usuários 
 podem associar uma arma ao seu personagem.
 Todas as funcionalidades do Web Service REST foram testadas através desse CRUD 
@@ -59,10 +50,9 @@ encontradas conforme listado abaixo:
 - `Excluir um personagem <http://localhost/desafio-desenvolvedor-hitss/medieval_battle/deletecharacter/1>`_, passando o parâmetro id por DELETE.
 - `Excluir uma arma <http://localhost/desafio-desenvolvedor-hitss/medieval_battle/deleteweapon/1>`_, passando os parâmetro id DELETE.
 - `Criar uma nova partida (Iniciar Jogo): <http://localhost/desafio-desenvolvedor-hitss/medieval_battle/addgame/>`_, passando os parâmetros por POST. Nesta etapa deve-se selecionar os oponentes e definir um nome para a batalha.
-Após clicar em enviar você verá a tela onde cada usuário pode rolar os dados para definir a ordem dos ataques e seguindo a lógica do negócio dar continuidade na partida até que os pontos de vida de algum dos personagens seja menor ou igual a zero.
 
-Caso vá testar este código em outro diretório que não o localhost de sua 
-máquina, faz-se necessário abrir o arquivo "application/config/config.php" e 
-editar a diretiva base_url que se encontra na linha 26 deste arquivo.
+Após clicar em enviar você verá a tela onde cada usuário pode rolar os dados para definir a ordem dos 
+ataques e seguindo a lógica do negócio dar continuidade na partida até que os pontos de vida de algum dos 
+personagens seja menor ou igual a zero.
 
 Então, "sem mais delongas", vamos partir para ação!
