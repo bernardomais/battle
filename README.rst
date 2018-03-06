@@ -28,17 +28,14 @@ projeto e os requisitos para sua execução.
 
 A solução deste projeto foi pensada de forma que o usuário (gamer) possa 
 cadastrar seus próprios personagens e armas que serão utilizadas por ele.
-Através do relacionamento personagem x arma no banco de dados, os usuários 
-podem associar uma arma ao seu personagem.
+
 Todas as funcionalidades do Web Service REST foram testadas através desse CRUD 
 de personagens e armas.
 Após criados e selecionados os personagens e suas armas, podemos definir uma 
-partida, escolher os participantes e começar a batalha seguindo as regras de 
-negócio definidas no escopo do desafio.
+partida, escolher os participantes e começar a batalha!
 
-Tomando em consideração que este Web Service está sendo executado em sua 
-máquina local, as funcionalidades básicas do REST Web Server podem ser 
-encontradas conforme listado abaixo:
+Para ver as funcionalidades do Web Service em ação acesse os links abaixo ou use os paths fazendo 
+as devidas adaptações para o seu servidor:
 
 - `Listar todos os personagens cadastrados e as armas disponíveis <http://localhost/desafio-desenvolvedor-hitss/>`_
 - `Listar detalhes de um personagem por seu id <http://localhost/desafio-desenvolvedor-hitss/medieval_battle/viewcharacter/1>`_
