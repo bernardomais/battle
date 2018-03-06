@@ -41,9 +41,9 @@ as devidas adaptações para o seu servidor:
 - `Listar detalhes de um personagem <http://www.ceffsistemas.com.br/coding/battle/with-framework/API/characters/byid/id/5>`_, por GET passando seu id como parâmtro.
 - `Listar armas <http://www.ceffsistemas.com.br/coding/battle/with-framework/API/weapons/all>`_, por GET.
 - `Listar detalhes de uma arma <http://www.ceffsistemas.com.br/coding/battle/with-framework/API/weapons/byid/id/9>`_, por GET passando seu id como parâmtro.
+- Criar novo personagem '/battle/with-framework/API/characters/addcharacter', passando os parâmetros por POST.
+- Criar uma nova arma '/battle/with-framework/API/characters/addweapon', passando os parâmetros por POST.
 
-- `Criar um novo personagem <http://localhost/desafio-desenvolvedor-hitss/medieval_battle/addcharacter/>`_, passando os parâmetros por POST.
-- `Criar uma nova arma <http://localhost/desafio-desenvolvedor-hitss/medieval_battle/addweapon/>`_, passando os parâmetros por POST.
 - `Atualizar um personagem <http://localhost/desafio-desenvolvedor-hitss/medieval_battle/editcharacter/1>`_, passando os parâmetros por PUT.
 - `Atualizar uma arma <http://localhost/desafio-desenvolvedor-hitss/medieval_battle/editweapon/1>`_, passando os parâmetros por PUT.
 - `Excluir um personagem <http://localhost/desafio-desenvolvedor-hitss/medieval_battle/deletecharacter/1>`_, passando o parâmetro id por DELETE.
