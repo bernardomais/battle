@@ -5,7 +5,7 @@ Batalha Medieval
 Projetar e implementar um serviço web REST e um cliente que possa consumir tal 
 serviço e que apresente resultados de todas as interações.
 
-Veja o código em ação: `In Action <http://www.ceffsistemas.com.br/coding/battle/>`_
+Veja o código em ação: `Clique aqui <http://www.ceffsistemas.com.br/coding/battle/>`_
 
 ******************
 Outras Informações
