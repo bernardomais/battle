@@ -26,7 +26,7 @@ disponível no `Guia do Usuário CodeIgniter <https://codeigniter.com/user_guide
 Durante o desenvolvimento desta solução vou incrementar este arquivo README com  as especificidades do 
 projeto e os requisitos para sua execução.
 
-A solução deste projeto foi pensada de forma que o usuário/gammer possa 
+A solução deste projeto foi pensada de forma que o usuário (gamer) possa 
 cadastrar seus próprios personagens e armas que serão utilizadas por ele.
 Através do relacionamento personagem x arma no banco de dados, os usuários 
 podem associar uma arma ao seu personagem.
