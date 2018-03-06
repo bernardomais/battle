@@ -41,14 +41,13 @@ as devidas adaptações para o seu servidor:
 - `Listar detalhes de um personagem <http://www.ceffsistemas.com.br/coding/battle/with-framework/API/characters/byid/id/5>`_, por GET passando seu id como parâmtro.
 - `Listar armas <http://www.ceffsistemas.com.br/coding/battle/with-framework/API/weapons/all>`_, por GET.
 - `Listar detalhes de uma arma <http://www.ceffsistemas.com.br/coding/battle/with-framework/API/weapons/byid/id/9>`_, por GET passando seu id como parâmtro.
-- Criar novo personagem '/battle/with-framework/API/characters/addcharacter', passando os parâmetros por POST.
-- Criar uma nova arma '/battle/with-framework/API/characters/addweapon', passando os parâmetros por POST.
-
-- `Atualizar um personagem <http://localhost/desafio-desenvolvedor-hitss/medieval_battle/editcharacter/1>`_, passando os parâmetros por PUT.
-- `Atualizar uma arma <http://localhost/desafio-desenvolvedor-hitss/medieval_battle/editweapon/1>`_, passando os parâmetros por PUT.
-- `Excluir um personagem <http://localhost/desafio-desenvolvedor-hitss/medieval_battle/deletecharacter/1>`_, passando o parâmetro id por DELETE.
-- `Excluir uma arma <http://localhost/desafio-desenvolvedor-hitss/medieval_battle/deleteweapon/1>`_, passando os parâmetro id DELETE.
-- `Criar uma nova partida (Iniciar Jogo): <http://localhost/desafio-desenvolvedor-hitss/medieval_battle/addgame/>`_, passando os parâmetros por POST. Nesta etapa deve-se selecionar os oponentes e definir um nome para a batalha.
+- Criar personagem '/battle/with-framework/API/characters/add', passando os parâmetros por POST.
+- Criar arma '/battle/with-framework/API/weapons/add', passando os parâmetros por POST.
+- Atualizar personagem '/battle/with-framework/API/characters/edit/1', passando os parâmetros por PUT.
+- Atualizar arma '/battle/with-framework/API/weapons/edit/1', passando os parâmetros por PUT.
+- Excluir personagem '/battle/with-framework/API/characters/delete/1', passando o parâmetro id por DELETE.
+- Excluir arma '/battle/with-framework/API/weapons/delete/1', passando os parâmetro id DELETE.
+- Criar uma nova partida (Iniciar Jogo) '/battle/with-framework/API/addgame/', passando os parâmetros por POST.
 
 Após clicar em enviar você verá a tela onde cada usuário pode rolar os dados para definir a ordem dos 
 ataques e seguindo a lógica do negócio dar continuidade na partida até que os pontos de vida de algum dos 
