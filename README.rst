@@ -37,9 +37,11 @@ partida, escolher os participantes e começar a batalha!
 Para ver as funcionalidades do Web Service em ação acesse os links abaixo ou use os paths fazendo 
 as devidas adaptações para o seu servidor:
 
-- `Listar personagens <http://www.ceffsistemas.com.br/coding/battle/with-framework/API/characters/all>`_, requisição por GET.
-- `Listar detalhes de um personagem: <http://www.ceffsistemas.com.br/coding/battle/with-framework/API/characters/byid/id/5>`_, requisição por GET passando seu id como parâmtro.
-- `Listar detalhes de uma arma por seu id <http://localhost/desafio-desenvolvedor-hitss/medieval_battle/viewweapon/1>`_
+- `Listar personagens <http://www.ceffsistemas.com.br/coding/battle/with-framework/API/characters/all>`_, por GET.
+- `Listar detalhes de um personagem <http://www.ceffsistemas.com.br/coding/battle/with-framework/API/characters/byid/id/5>`_, por GET passando seu id como parâmtro.
+- `Listar armas <http://www.ceffsistemas.com.br/coding/battle/with-framework/API/weapons/all>`_, por GET.
+- `Listar detalhes de uma arma <http://www.ceffsistemas.com.br/coding/battle/with-framework/API/weapons/byid/id/9>`_, por GET passando seu id como parâmtro.
+
 - `Criar um novo personagem <http://localhost/desafio-desenvolvedor-hitss/medieval_battle/addcharacter/>`_, passando os parâmetros por POST.
 - `Criar uma nova arma <http://localhost/desafio-desenvolvedor-hitss/medieval_battle/addweapon/>`_, passando os parâmetros por POST.
 - `Atualizar um personagem <http://localhost/desafio-desenvolvedor-hitss/medieval_battle/editcharacter/1>`_, passando os parâmetros por PUT.
