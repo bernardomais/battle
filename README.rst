@@ -38,7 +38,7 @@ Para ver as funcionalidades do Web Service em ação acesse os links abaixo ou u
 as devidas adaptações para o seu servidor:
 
 - `Listar de personagens <http://www.ceffsistemas.com.br/coding/battle/with-framework/API/characters/all>`_, requisição por GET.
-- `Listar detalhes de um personagem (por #ID): <>`_
+- `Listar detalhes de um personagem por seu #id: <http://www.ceffsistemas.com.br/coding/battle/with-framework/API/characters/byid/id/5>`_, requisição por GET.
 - `Listar detalhes de uma arma por seu id <http://localhost/desafio-desenvolvedor-hitss/medieval_battle/viewweapon/1>`_
 - `Criar um novo personagem <http://localhost/desafio-desenvolvedor-hitss/medieval_battle/addcharacter/>`_, passando os parâmetros por POST.
 - `Criar uma nova arma <http://localhost/desafio-desenvolvedor-hitss/medieval_battle/addweapon/>`_, passando os parâmetros por POST.
